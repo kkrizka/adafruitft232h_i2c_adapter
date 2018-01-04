@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kk_adafruit)(type KiCad)(uri "$(KIPRJMOD)/library/kk_adafruit.pretty")(options "")(descr ""))
+)
