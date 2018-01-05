@@ -235,8 +235,6 @@ F 3 "" H 6600 2950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5500 3000 6400 3000
-Wire Wire Line
-	7600 2950 7800 2950
 $Comp
 L R R2
 U 1 1 5A4EA483
@@ -276,16 +274,8 @@ F 3 "" H 5500 3150 50  0001 C CNN
 	1    5500 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 3050 7300 3050
-Wire Wire Line
-	7300 3050 7300 2950
-Connection ~ 7700 2950
-Wire Wire Line
-	7300 2650 7950 2650
 Text Label 6550 2500 0    60   ~ 0
 VREF
-Connection ~ 7700 2650
 $Comp
 L PWR_FLAG #FLG07
 U 1 1 5A4EA9B2
