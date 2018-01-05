@@ -1,4 +1,4 @@
-update=Thu 04 Jan 2018 01:12:57 PM PST
+update=Thu 04 Jan 2018 07:10:53 PM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=library/kk_adafruit
 LibName31=library/kk_power
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

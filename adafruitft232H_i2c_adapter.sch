@@ -33,14 +33,14 @@ LIBS:kk_power
 LIBS:adafruitft232H_i2c_adapter-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "I2C Adapter for FT232H Adafruit Breakout"
+Date "2018-01-04"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Karol Krizka"
+Comment1 "Lawrence Berkeley National Laboratory"
 Comment2 ""
 Comment3 ""
 Comment4 ""
