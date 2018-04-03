@@ -1,3 +1,5 @@
+[Imgur](https://i.imgur.com/1E6iFkH.jpg)
+
 # Introduction
 The [FT232H](http://www.ftdichip.com/Products/ICs/FT232H.htm) is a funky little chip that converts from USB to random serial protocols. It is useful for talking to devices that communicate via I2C or SPI. Adafruit has developed a [FT232H break-out board](https://learn.adafruit.com/adafruit-ft232h-breakout/) that connects to a computer using a micro-USB port. However to use it with I2C, some external electronics are required.
  
@@ -15,3 +17,4 @@ The reference voltage can be set by picking the right resistor values, allowing 
 * **C1-2**: Bypass capacitors, 1 uF
 * **R1-R2**: Pull-up resistors, 2 kOhm
 * **R3-R4**: Output of U2 LDO set I2C reference voltage. `Vout = 0.5V (1 + R3/R4)`.
+* **J1**: Connectors to the I2C device. 4 0.1" 1x4 pin header recommended.
