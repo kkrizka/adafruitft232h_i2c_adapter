@@ -9,3 +9,9 @@ The Adafruit FT232H I2C Adapter is a custom PCB that connects to the break-out b
 The reference voltage can be set by picking the right resistor values, allowing for a wide operational range.
 
 # Components
+
+* **U1**: 2x [0.1" 1x10 pin sockets](https://www.digikey.com/products/en?keywords=s7043-ND) to connect the the Adafruit FT232H break-out board
+* **U2**: [ADP123 LDO](https://www.digikey.com/products/en?keywords=12T2968), TSOT-5 package
+* **C1-2**: Bypass capacitors, 1 uF
+* **R1-R2**: Pull-up resistors, 2 kOhm
+* **R3-R4**: Output of U2 LDO set I2C reference voltage. `Vout = 0.5V (1 + R3/R4)`.
