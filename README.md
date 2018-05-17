@@ -31,3 +31,15 @@ Device
 ```
 
 ![FT_PROG Settings](https://i.imgur.com/7jFPrpg.png)
+
+# Device Permissions
+The device permissions need to be loosened to allow usage of the libftdi driver as a non-root user. The following udev rule allow any user in the `plugdev` group to access the FTDI232H device. 
+
+```
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6014", MODE:="0666", GROUP:="plugdev"
+```
+
+Add it to a file called `/etc/udev/rules.d/83-ftdi.rules` and run the following command to load it:
+```shell
+udevadm control --reload-rules && udevadm trigger
+```
